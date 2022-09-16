@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Supervisión Escolar No. 48 de Bachillerato General</title>
+	<link rel="icon"  href="Imagenes/LogoFondo/Logo2.png">
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!--Establece el ancho y zoom de la pagina en cualquier dispositivo-->
+	<link rel="stylesheet" type="text/css" href="Css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Css/Separador1.css">
+	<link rel="stylesheet" type="text/css" href="Css/Fondo.css">
+	<link rel="stylesheet" type="text/css" href="Css/Pie.css">
+ </head>
+	 <body>
+	 <!--MENU-->
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top"> <!--Determinamos el color de la barra de menu-->
+				<div class="container-fluid"> <!--Determinamos que nuestro menu ocupara todo el ancho de nuestro monitor-->
+					<div class="navbar-header"><!--Coloca el menu en una misma fila-->
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#BotonesMenu"><!--Realizamos el efecto toogle para el menu y esta se esconda-->
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						  </button>
+						  <img src="Imagenes/LogoFondo/Logo3.png" class="img-responsive" class="navbar-brand" width="100" height="50"> 
+					</div>
+					<div class="collapse navbar-collapse" id="BotonesMenu"><!--Es necesario utilizar el ID para que el efecto toogle funcione-->
+						  <ul class="nav navbar-nav">
+						
+							<li><a href="index.html">Inicio</a></li>
+								<li class="dropdown"><!--Si este demeniza mas contenido podremos agregar submenus-->
+								  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Conocenos <span class="caret"></span></a>
+									  <ul class="dropdown-menu">
+										<li><a href="Html/Misión.html">Misión</a></li>
+										<li><a href="Html/Visión.html">Visión</a></li>
+										<li><a href="Html/Valores.html">Valores</a></li>
+									  </ul>
+								</li>
+								<li class="dropdown"><!--Si este demeniza mas contenido podremos agregar submenus-->
+									  <a class="dropdown-toggle" data-toggle="dropdown" href="Html/Zona.html">Zona 048 BG <span class="caret"></span></a>
+										  <ul class="dropdown-menu">
+											<a href="Html/Zona.html" id="se"  onclick="visualizarse();" class="list-group-item">Supervision Escolar </a>
+											<a href="Html/Zona.html" id="prepa55"  onclick="visualizar55();" class="list-group-item">EPO 55</a>
+											<a href="Html/Zona.html" id="prepa74"  onclick="visualizar74();" class="list-group-item">EPO 74</a>
+											<a href="Html/Zona.html" id="prepa122" onclick="visualizar122();" class="list-group-item">EPO 122</a>
+											<a href="Html/Zona.html" id="prepa124" onclick="visualizar124();" class="list-group-item">EPO 124</a>
+											<a href="Html/Zona.html" id="prepa161" onclick="visualizar161();" class="list-group-item">EPO 161</a>
+											<a href="Html/Zona.html" id="prepa161" onclick="visualizar224();" class="list-group-item">EPO 224</a>
+											<a href="Html/Zona.html" id="prepa310" onclick="visualizar310();" class="list-group-item">EPO 310</a>
+											<a href="Html/Zona.html" id="prepanet" onclick="visualizarnet();" class="list-group-item">NetIxtapaluca</a>
+										  </ul>
+								</li>
+								<li><a href="Html/Contactanos.html">Contactanos</a></li>
+								<li><a href="Avisos/index.html">Avisos</a></li>
+							<!--<li><a href="#">Contactanos</a></li>-->
+						  </ul>
+						  <ul class="nav navbar-nav navbar-right">
+							<li><a href="Html/Clave.html">Office 365</a></li>
+							
+						  </ul>
+					</div>
+				</div>
+		</nav>
+		<section class="jumbotron">
+		<div class="container">
+			<center><h1><strong><font face="Arial" size=7 color="White">Supervisión Escolar No. 048</font></strong></h1></center>
+						<center><h4><strong><font face="Arial" size=6 color="White"> de Bachillerato General</font></strong></h4></center>
+		</div>
+	</section>
+	
+	</header>
+		<!--Inicio de Slider-->
+		<div class="container-fluid"><!--Determinamos que ocupe el ancho de nuestro monitor-->
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2"><!--Indicamos que el recuadro del Slider ocupara 6 cajas dejando como espacio 3 (6+3+3=12)-->
+								<div id="carousel-1" class="carousel slide" data-ride="carousel"><!--Indicamos lo siguiente (Indicamos que se ara un carrusel/Indicamos que tenga el efecto de cambio de foto/Indica que inicie la animación al cargar la pagina-->
+									<!-- indicadores -->
+									<ol class="carousel-indicators"><!--Se coloca el circulo que indica en que posición de imagen va-->
+										<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel-1" data-slide-to="1"></li>
+										<li data-target="#carousel-1" data-slide-to="2"></li>
+										<li data-target="#carousel-1" data-slide-to="3"></li>
+										<li data-target="#carousel-1" data-slide-to="4"></li>
+										<li data-target="#carousel-1" data-slide-to="5"></li>
+									</ol>
+										<!-- Es es el contenedor del Slider, aqui comenzaremos a colocar las imagenes -->
+										<div class="carousel-inner" role="listbox">
+											<div class="item active"> <!--Indicamos que con esta imagen iniciare el scroll-->
+												<img src="Imagenes/Supervisión/7.jpg" class="img-responsive"><!--Ruta de la imagen a mostrar-->
+													<div class="carousel-caption hidden-xs"><!--Inicamos el tamaño del Slider-->
+														<!--<h2>Parte exterior de la supervisión</h2>-->
+														<!--<button class="btn btn-primary">Contacto</button><!--Si queremos agregar algun boton se puede hacer-->
+													</div>
+											</div>
+											<div class="item"><!--Crea el titulo para cada diapositiva-->
+												<img src="Imagenes/Supervisión/3.png" class="img-responsive">
+												<div class="carousel-caption hidden-xs">
+													<!--<h2>Texto</h2>-->
+												</div>
+											</div>
+											<div class="item"><!--Crea el titulo para cada diapositiva-->
+												<img src="Imagenes/Supervisión/2.png" class="img-responsive">
+												<div class="carousel-caption hidden-xs">
+													<!--<h2>Texto</h2>-->
+												</div>
+											</div>
+											<div class="item">
+												<img src="Imagenes/Supervisión/4.png" class="img-responsive">
+												<div class="carousel-caption hidden-xs">
+													<!--<h2>Texto</h2>-->
+												</div>
+											</div>
+											<div class="item">
+												<img src="Imagenes/Supervisión/6.png" class="img-responsive">
+												<div class="carousel-caption hidden-xs">
+													<!--<h2>Texto</h2>-->
+												</div>
+											</div>
+											<div class="item">
+												<img src="Imagenes/Supervisión/1.png" class="img-responsive">
+												<div class="carousel-caption hidden-xs">
+													<!--<h2>Texto</h2>-->
+												</div>
+											</div>
+										</div>
+										<!-- Controles para indicar si va ir atras o adelante el slider -->
+										<a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" arial-hidden="true"></span></a><!--Indicamos que se crea una flecha del lado izquierdo con la funcion "Previo"-->
+										<a href="#carousel-1" class="right carousel-control" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" arial-hidden="true"></span></a><!--Indicamos que se crea una flecha del lado izquierdo con la funcion "Siguiente"-->
+								</div>
+							</div>
+						</div>
+		</div>
+			<div class="container"><!--Apartir de aqui colocaremos enlaces en dos columnas-->
+						<div class="row">
+								<div class="col-md-5 col-md-offset-1">
+										<a href="http://www.dgb.sep.gob.mx/"><h5><font color="black">Dir. Gral.del Bachillerato </font><span class="abrev"> <small>(DGB)</small></a></h5>
+											
+										 <a href="http://www.copeems.mx/" target="_blank"><h5><font color="black">Consejo para la Evaluación de la Educación del Tipo Medio Superior A.C.</font> <span class="abrev"> <small>(COPEEMS)</small></span></a></h5>
+											
+										 <a href="http://www.comipems.org.mx/" target="_blank"><h5><font color="black">Comisión Metropolitana de Instituciones Públicas de Educación Media Superior </font><span class="abrev"><small> (COMIPEMS)</small></span></a></h5>
+											
+										 <a href="http://148.207.17.6/informe2014/" target="_blank"><h5><font color="black">Portal de Informes de Actividades y Rendición de Cuentas de EMS</font><span class="abrev"></span></a></h5>
+								</div>
+								<div class=" col-md-offset-1 col-md-5">
+										<a href="http://www.sep.gob.mx/" target="_blank"><h5><font color="black">Secretaría de Educación Pública</font><span class="abrev"><small> (SEP)</small></span></a></h5>
+											
+										<a href="http://www.upepe.sep.gob.mx/" target="_blank"><h5><font color="black">Subsecretaría de Planeación y Evaluación de Políticas Educativas</font></a></h5>
+											
+										<a href="http://basica.sep.gob.mx/SEB/pagina/index.html" target="_blank"><h5><font color="black">Secretaría de Educación Básica</font><span class="abrev"><small>(SEB)</small></span></a></h5>
+											
+										<a href="http://www.inee.edu.mx/" target="_blank"><h5><font color="black">Instituto Nacional para la Evaluación de la Educación</font><span class="abrev"> <small>(INEE)</small></span></a></h5>
+											
+										<a href="http://www.smsem.org.mx/" target="_blank"><h5><font color="black">Sindicato de Maestros al Servicio del Estado de México </font><span class="abrev"><small>(SMSEM)</small> </span></a></h5>
+											
+										<a href="http://www.issemym.gob.mx/" target="_blank"><h5><font color="black">Instituto de seguridad social del Estado de México y municipios</font> <span class="abrev"><small>(ISSEMyM)</small></span></a></h5>
+											
+										<a href="http://www.sbgem.com.mx/" target="_blank"><h5><font color="black">Subdirección de Bachillerato General </font><span class="abrev"><small>(SBG)</small></span></a></h5>					 
+								</div>
+						</div>
+			</div>
+			<!--Fin de contenido central-->
+			<!--Inicio del pie de pagina-->
+			<footer class="container-fluid">
+				<div class="container"><!--Apartir de aqui colocaremos enlaces en dos columnas-->
+							<div class="row">
+									<div class="col-md-5">
+									<br>
+										<img src="Imagenes/LogoFondo/Piensa.png" class="img-responsive" width="100" height="100">
+									</div>
+									<div class="col-md-7">
+										<strong><br>
+											AV. Principal Wahingtonia S/N y circuito palmera imperial "Las palmas |" Hacienda
+											<br>
+											Ixtapaluca Edo. México CP. 56535
+											<br>
+											Correo electronico: zona48bg@gmail.com
+											<br>
+											Tel: 5541191217
+											</br>
+											</br></strong>
+									</div>
+							</div>
+				</div>			
+			</footer>
+			<!--Herramientas js-->
+			<script src="JavaScript/jquery.js"></script>
+			<script src="JavaScript/bootstrap.min.js"></script>
+	 </body>
+</html>

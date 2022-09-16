@@ -1,0 +1,11 @@
+/*header*/
+/*etiqueta,clase(.nombre de LA CLASE), id (#nombre o id) {
+
+}*/
+.jumbotron{
+	padding-top: 70px;
+	background:#272727;
+}
+footer{
+	padding-top: 70px;
+}

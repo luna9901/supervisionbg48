@@ -1,0 +1,6 @@
+body {
+	background-image: URL(../Imagenes/LogoFondo/Invierno.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	height: 110px
+}
